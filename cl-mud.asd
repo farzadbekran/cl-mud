@@ -7,5 +7,12 @@
     :serial t
     :depends-on (#:usocket #:cl-cffi-gtk #:chanl)
     :components ((:file "package")
+		 (:file "channels")
+		 (:file "network")
+		 (:file "gui/main")
+		 (:file "printer")
+		 (:file "line-splitter")
+		 (:file "ansi")
+		 (:file "telnet")
                  (:file "cl-mud")))
 
